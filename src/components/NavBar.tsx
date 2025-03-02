@@ -26,11 +26,9 @@ export default function Navbar() {
             <Navigation />
           </NavbarLeft>
           <NavbarRight>
-            <Link href="/" className="hidden text-sm md:block">
-              Sign in
-            </Link>
-            <Button variant="default" asChild>
-              <Link href="/">Get Started</Link>
+            
+            <Button variant="glow" asChild className="bg-gradient-to-r from-[var(--main-clr-2)] to-[var(--main-clr)] text-white">
+              <Link href="/">Consult Now</Link>
             </Button>
             <Sheet>
               <SheetTrigger asChild>
